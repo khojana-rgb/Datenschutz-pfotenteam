@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschutzerklärung – Hundeschule Pfoten-Team</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --brown:      #3b2a1a;
+      --brown-mid:  #6b4c2a;
+      --brown-soft: #c9a87c;
+      --cream:      #fdf8f2;
+      --cream-dark: #f0e8d8;
+      --green:      #4a7c59;
+      --green-soft: #e8f2ec;
+      --rule:       #ddd0bc;
+      --white:      #ffffff;
+      --max:        760px;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      background: var(--cream);
+      color: var(--brown);
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--brown);
+      padding: 3.5rem 2rem 2.5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: "🐾";
+      position: absolute;
+      font-size: 8rem;
+      opacity: 0.06;
+      top: -1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--brown-soft);
+      margin-bottom: 0.8rem;
+    }
+
+    header h1 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.7rem, 4vw, 2.4rem);
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.2;
+    }
+
+    header h1 span {
+      font-style: italic;
+      color: var(--brown-soft);
+    }
+
+    .meta {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      color: var(--brown-soft);
+      opacity: 0.8;
+    }
+
+    /* ── MAIN ── */
+    main {
+      max-width: var(--max);
+      margin: 2.5rem auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── SECTION ── */
+    section {
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      padding: 2rem 2.4rem;
+      margin-bottom: 1.4rem;
+      animation: fadeUp 0.45s ease both;
+    }
+
+    section:nth-child(1)  { animation-delay: 0.05s; }
+    section:nth-child(2)  { animation-delay: 0.10s; }
+    section:nth-child(3)  { animation-delay: 0.15s; }
+    section:nth-child(4)  { animation-delay: 0.20s; }
+    section:nth-child(5)  { animation-delay: 0.25s; }
+    section:nth-child(6)  { animation-delay: 0.30s; }
+    section:nth-child(7)  { animation-delay: 0.35s; }
+    section:nth-child(8)  { animation-delay: 0.40s; }
+    section:nth-child(9)  { animation-delay: 0.45s; }
+    section:nth-child(10) { animation-delay: 0.50s; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    section h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--brown);
+      margin-bottom: 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    section h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--cream-dark);
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      color: var(--brown-mid);
+      flex-shrink: 0;
+    }
+
+    section p {
+      font-size: 0.95rem;
+      color: #5a4030;
+      margin-bottom: 0.8rem;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    section ul {
+      margin: 0.4rem 0 0.8rem 1.2rem;
+      font-size: 0.95rem;
+      color: #5a4030;
+    }
+
+    section ul li { margin-bottom: 0.35rem; }
+
+    .contact-block {
+      background: var(--cream-dark);
+      border-left: 3px solid var(--brown-soft);
+      border-radius: 0 6px 6px 0;
+      padding: 1.1rem 1.5rem;
+      font-size: 0.95rem;
+      color: var(--brown);
+      line-height: 2.1;
+    }
+
+    .contact-block strong { color: var(--brown-mid); }
+
+    .highlight-box {
+      background: var(--green-soft);
+      border-left: 3px solid var(--green);
+      border-radius: 0 6px 6px 0;
+      padding: 1rem 1.4rem;
+      font-size: 0.92rem;
+      color: #2e4d38;
+      margin-top: 0.8rem;
+    }
+
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--brown);
+      color: var(--brown-soft);
+      text-align: center;
+      font-size: 0.78rem;
+      padding: 2rem 1rem;
+      line-height: 2;
+    }
+
+    footer a { color: var(--brown-soft); }
+    footer a:hover { color: var(--white); }
+
+    .paw { display: inline-block; margin: 0 0.3rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">Rechtliche Information</p>
+  <h1>Datenschutzerklärung<br><span>Hundeschule Pfoten-Team</span></h1>
+  <p class="meta">Jeannette Salomon &nbsp;·&nbsp; Stand: Mai 2026</p>
+</header>
+
+<main>
+
+  <section>
+    <h2><span class="num">1</span> Verantwortlicher</h2>
+    <div class="contact-block">
+      <strong>Hundeschule Pfoten-Team</strong><br>
+      Inhaberin: Jeannette Salomon<br>
+      August-Bebel-Str. 15<br>
+      08297 Zwönitz<br>
+      Telefon: <a href="tel:+491709012067">0170 9012067</a><br>
+      E-Mail: <a href="mailto:jeannette.salomon@gmail.com">jeannette.salomon@gmail.com</a><br>
+      Website: <a href="https://www.pfoten-team.de" target="_blank">www.pfoten-team.de</a>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Grundsätze der Datenverarbeitung</h2>
+    <p>Wir verarbeiten personenbezogene Daten ausschließlich im Rahmen der geltenden datenschutzrechtlichen Vorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO) und des Bundesdatenschutzgesetzes (BDSG).</p>
+    <p>Personenbezogene Daten werden nur erhoben, soweit dies für die Erfüllung eines Vertrags, zur Durchführung vorvertraglicher Maßnahmen oder auf Grundlage einer gesetzlichen Verpflichtung erforderlich ist.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Erhobene Daten und Verarbeitungszwecke</h2>
+    <p>Im Rahmen unserer Tätigkeit als Hundeschule verarbeiten wir folgende Kategorien personenbezogener Daten:</p>
+    <ul>
+      <li>Kontaktdaten (Name, Adresse, E-Mail-Adresse, Telefonnummer)</li>
+      <li>Angaben zum Hund (Name, Rasse, Alter, Gesundheitszustand soweit kursrelevant)</li>
+      <li>Kommunikationsinhalte (Anfragen über das Kontaktformular, E-Mails)</li>
+      <li>Vertragsdaten (Kursanmeldungen, Buchungen, Zahlungsinformationen)</li>
+    </ul>
+    <p>Die Verarbeitung erfolgt ausschließlich zur Kursorganisation, Durchführung von Trainingsmaßnahmen, Bearbeitung von Anfragen sowie zur Erfüllung gesetzlicher Pflichten.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Kontaktformular</h2>
+    <p>Wenn Sie unser Kontaktformular auf <a href="https://www.pfoten-team.de" target="_blank">www.pfoten-team.de</a> nutzen, werden die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse, Nachricht) zum Zweck der Bearbeitung Ihrer Anfrage gespeichert.</p>
+    <p>Diese Daten werden nicht ohne Ihre Einwilligung an Dritte weitergegeben. Nach abschließender Bearbeitung Ihrer Anfrage werden die Daten gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+    <div class="highlight-box">
+      <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen).
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Rechtsgrundlagen</h2>
+    <p>Die Verarbeitung personenbezogener Daten erfolgt auf Basis folgender Rechtsgrundlagen:</p>
+    <ul>
+      <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> – Vertragserfüllung und vorvertragliche Maßnahmen (z. B. Kursanmeldung)</li>
+      <li><strong>Art. 6 Abs. 1 lit. c DSGVO</strong> – Erfüllung rechtlicher Verpflichtungen</li>
+      <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> – Wahrung berechtigter Interessen</li>
+      <li><strong>Art. 6 Abs. 1 lit. a DSGVO</strong> – Einwilligung, sofern gesondert erteilt</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Speicherdauer und Löschung</h2>
+    <p>Personenbezogene Daten werden nur so lange gespeichert, wie es für den jeweiligen Verarbeitungszweck erforderlich ist oder gesetzliche Aufbewahrungsfristen bestehen.</p>
+    <p>Vertragsbezogene Daten werden gemäß den gesetzlichen Aufbewahrungsfristen (in der Regel 6 bzw. 10 Jahre nach HGB/AO) aufbewahrt und anschließend gelöscht. Anfragen über das Kontaktformular werden nach abschließender Bearbeitung gelöscht.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span> Weitergabe von Daten</h2>
+    <p>Eine Weitergabe personenbezogener Daten an Dritte erfolgt nur, soweit dies zur Vertragserfüllung erforderlich ist (z. B. Zahlungsabwicklung), eine gesetzliche Verpflichtung besteht oder eine ausdrückliche Einwilligung vorliegt.</p>
+    <p>Eine Übermittlung in Drittländer außerhalb der EU/EWR findet nicht statt, soweit keine geeigneten Garantien im Sinne der DSGVO vorliegen.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span> Ihre Rechte als betroffene Person</h2>
+    <p>Sie haben gegenüber uns folgende Rechte bezüglich Ihrer personenbezogenen Daten:</p>
+    <ul>
+      <li><strong>Auskunftsrecht</strong> (Art. 15 DSGVO)</li>
+      <li><strong>Recht auf Berichtigung</strong> (Art. 16 DSGVO)</li>
+      <li><strong>Recht auf Löschung</strong> (Art. 17 DSGVO)</li>
+      <li><strong>Recht auf Einschränkung der Verarbeitung</strong> (Art. 18 DSGVO)</li>
+      <li><strong>Recht auf Datenübertragbarkeit</strong> (Art. 20 DSGVO)</li>
+      <li><strong>Widerspruchsrecht</strong> (Art. 21 DSGVO)</li>
+      <li><strong>Recht auf Widerruf einer Einwilligung</strong> (Art. 7 Abs. 3 DSGVO)</li>
+    </ul>
+    <p>Zur Ausübung Ihrer Rechte wenden Sie sich bitte per E-Mail an: <a href="mailto:jeannette.salomon@gmail.com">jeannette.salomon@gmail.com</a></p>
+    <p>Sie haben zudem das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren. Die zuständige Behörde für Sachsen ist der <a href="https://www.saechsdsb.de" target="_blank">Sächsische Datenschutzbeauftragte</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">9</span> Hosting und Website</h2>
+    <p>Unsere Website <a href="https://www.pfoten-team.de" target="_blank">www.pfoten-team.de</a> wird bei einem Webhoster betrieben. Beim Aufruf der Website werden durch den Hoster automatisch sogenannte Server-Logfiles erfasst, die Informationen wie Browser-Typ, Betriebssystem, Referrer-URL, IP-Adresse und Uhrzeit des Zugriffs enthalten.</p>
+    <p>Diese Daten werden ausschließlich zur technischen Bereitstellung der Website genutzt und nicht mit anderen Datenquellen zusammengeführt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">10</span> Änderungen dieser Datenschutzerklärung</h2>
+    <p>Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen, um sie stets den aktuellen rechtlichen Anforderungen zu entsprechen. Die jeweils aktuelle Version ist auf unserer Website unter <a href="https://www.pfoten-team.de" target="_blank">www.pfoten-team.de</a> abrufbar.</p>
+    <p><strong>Stand: Mai 2026</strong></p>
+  </section>
+
+</main>
+
+<footer>
+  <span class="paw">🐾</span>
+  Hundeschule Pfoten-Team &nbsp;·&nbsp; Jeannette Salomon &nbsp;·&nbsp; August-Bebel-Str. 15, 08297 Zwönitz
+  <br>
+  <a href="tel:+491709012067">0170 9012067</a> &nbsp;·&nbsp;
+  <a href="mailto:jeannette.salomon@gmail.com">jeannette.salomon@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://www.pfoten-team.de" target="_blank">www.pfoten-team.de</a>
+  <span class="paw">🐾</span>
+</footer>
+
+</body>
+</html>
